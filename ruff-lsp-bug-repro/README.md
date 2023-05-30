@@ -4,7 +4,7 @@
 
 Git clone the repo and fire up neovim with a minimal init file:
 
-    cd /tmp && git clone ruff-lsp-bug-repro && cd ruff-lsp-bug-repro
+    cd /tmp && rm -rf assorted-repro-scenarios && git clone https://github.com/burnettk/assorted-repro-scenarios.git && cd assorted-repro-scenarios/ruff-lsp-bug-repro
     nvim -u minimal_init.lua hey.py
 
 Neovim lsp via the ruff lsp server will show two issues with the file:
