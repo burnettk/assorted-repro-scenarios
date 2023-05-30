@@ -1,5 +1,9 @@
 # ruff-lsp-bug-repro
 
+The ruff-lsp server provides code actions for some linting issues, but not others. At a
+minimum, they should all provide a code action to disable the ruff rule for the
+current line.
+
 ## How to use this
 
 Git clone the repo and fire up neovim with a minimal init file:
