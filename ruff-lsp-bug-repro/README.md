@@ -1,7 +1,7 @@
 # ruff-lsp-bug-repro
 
 The ruff-lsp server provides code actions for some linting issues, but not others. At a
-minimum, they should all provide a code action to disable the ruff rule for the
+minimum, I think it would be cool if they all provided a code action to disable the ruff rule for the
 current line.
 
 ## How to use this
