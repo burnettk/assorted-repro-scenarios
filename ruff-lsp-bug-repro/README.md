@@ -2,7 +2,8 @@
 
 The ruff-lsp server provides code actions for some linting issues, but not others. At a
 minimum, I think it would be cool if they all provided a code action to disable the ruff rule for the
-current line.
+current line. This repro is referenced in a [github issue
+comment](https://github.com/astral-sh/ruff-lsp/issues/94#issuecomment-1568646285).
 
 ## How to use this
 
